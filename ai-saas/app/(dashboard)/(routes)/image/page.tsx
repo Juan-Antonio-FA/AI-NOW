@@ -162,7 +162,7 @@ const ImagePage = () => {
         </div>
         <div className="space-y-4 mt-4">
           {isLoading && (
-            <div className="p-20">
+            <div className="p-20 rounded-lg w-full flex items-center justify-center bg-[#000000]">
               <Loader/>
             </div>
           )}
